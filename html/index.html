@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Gallery</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgba(0, 0, 0, 0.1);
+            background: url(Deshapriya_bg.jpg)no-repeat;
+            background-size: cover;
+            color: #333;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: slideDown 3s ease-in-out;
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .qr-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .qr-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .qr-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .qr-card h3 {
+            font-size: 1.1em;
+            margin: 10px 0 5px;
+        }
+        .qr-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            animation: slideUp 1s ease-in-out;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+        h2 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deshapriya Motors - QR Job Catalogue</h1>
+        <p>Scan the QR codes below for Recording Job Information</p>
+    </header>
+    <main>
+        <h2>General Repair and Maintenance</h2>
+        <div class="qr-container">
+            <!-- QR Code Card 1 -->
+            <div class="qr-card">
+                <img src="qr1.png" alt="Oil Change">
+                <h3>Oil Change</h3>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHIuUTGSQ9VIs8kT1ZfQN-iplKy0In4-x9h7Xm-2qNXtOxwA/viewform?entry.1855634556=Oil%20Change" target="_blank">Direct Link</a></p>
+            </div>
+            <!-- QR Code Card 2 -->
+            <div class="qr-card">
+                <img src="qr2.png" alt="Brake Servicing">
+                <h3>Brake Servicing</h3>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHIuUTGSQ9VIs8kT1ZfQN-iplKy0In4-x9h7Xm-2qNXtOxwA/viewform?entry.1855634556=Brake%20Servicing" target="_blank">Direct Link</a></p>
+            </div>
+            <!-- QR Code Card 3 -->
+            <div class="qr-card">
+                <img src="qr3.png" alt="Chain and Sprocket Maintenance">
+                <h3>Chain and Sprocket Maintenance</h3>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHIuUTGSQ9VIs8kT1ZfQN-iplKy0In4-x9h7Xm-2qNXtOxwA/viewform?entry.1855634556=Chain%20and%20Sprocket%20Maintenance" target="_blank">Direct Link</a></p>
+            </div>
+        </div>
+        <br><br>
+        <h2>Electrical Services</h2>
+        <div class="qr-container">
+            <!-- QR Code Card 1 -->
+            <div class="qr-card">
+                <img src="qr4.png" alt="Wiring and Electrical Fault Repair">
+                <h3>Wiring and Electrical Fault Repair</h3>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHIuUTGSQ9VIs8kT1ZfQN-iplKy0In4-x9h7Xm-2qNXtOxwA/viewform?entry.1855634556=Wiring%20and%20Electrical%20Fault%20Repair" target="_blank">Direct Link</a></p>
+            </div>
+            <!-- QR Code Card 2 -->
+            <div class="qr-card">
+                <img src="qr5.png" alt="Lighting Replacement">
+                <h3>Lighting Replacement</h3>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHIuUTGSQ9VIs8kT1ZfQN-iplKy0In4-x9h7Xm-2qNXtOxwA/viewform?entry.1855634556=Lighting%20Replacement" target="_blank">Direct Link</a></p>
+            </div>
+            <!-- QR Code Card 3 -->
+            <div class="qr-card">
+                <img src="qr6.png" alt="Ignition System Repairs">
+                <h3>Ignition System Repairs</h3>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScHIuUTGSQ9VIs8kT1ZfQN-iplKy0In4-x9h7Xm-2qNXtOxwA/viewform?entry.1855634556=Ignition%20System%20Repairs" target="_blank">Direct Link</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Deshapriya Motors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
