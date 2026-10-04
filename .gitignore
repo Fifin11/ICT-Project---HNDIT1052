@@ -1,0 +1,11 @@
+﻿# Ignore project files that should stay local
+Database.accdb
+Mid presentation/12.png
+Mid presentation/mid.pptx
+Mid presentation/Qr.docx
+Report/Final Report.docx
+Report/Final Report.pdf
+Report/Guidelines-Final Report.pdf
+proposal/Proposal.docx
+proposal/Proposal.pdf
+proposal/ProposalFormat.docx
